@@ -1,5 +1,5 @@
-# Getting and Cleaning Data - Project Course
-==============================================
+# Getting and Cleaning Data - Project Course - READ ME
+======================================================
 
 ## Origins, Processes and Results
 
