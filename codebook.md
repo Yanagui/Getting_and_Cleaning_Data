@@ -59,84 +59,85 @@ Create a tidy data set using 8 different files:
 
 ### Variables of tidy data set:
 
-* "Subject"                                            
-* "Activity"                                           
-* "Time_Body_Acceration-mean()-X"                      
-* "Time_Body_Acceration-mean()-Y"                      
-* "Time_Body_Acceration-mean()-Z"                      
-* "Time_Body_Acceration-std()-X"                       
-* "Time_Body_Acceration-std()-Y"                       
-* "Time_Body_Acceration-std()-Z"                       
-* "Time_Gravity_Acceration-mean()-X"                   
-* "Time_Gravity_Acceration-mean()-Y"                   
-* "Time_Gravity_Acceration-mean()-Z"                   
-* "Time_Gravity_Acceration-std()-X"                    
-* "Time_Gravity_Acceration-std()-Y"                    
-* "Time_Gravity_Acceration-std()-Z"                    
-* "Time_Body_Acceration_Jerk-mean()-X"                 
-* "Time_Body_Acceration_Jerk-mean()-Y"                 
-* "Time_Body_Acceration_Jerk-mean()-Z"                 
-* "Time_Body_Acceration_Jerk-std()-X"                  
-* "Time_Body_Acceration_Jerk-std()-Y"                  
-* "Time_Body_Acceration_Jerk-std()-Z"                  
-* "Time_Body_Gyroscope-mean()-X"                       
-* "Time_Body_Gyroscope-mean()-Y"                       
-* "Time_Body_Gyroscope-mean()-Z"                       
-* "Time_Body_Gyroscope-std()-X"                        
-* "Time_Body_Gyroscope-std()-Y"                        
-* "Time_Body_Gyroscope-std()-Z"                        
-* "Time_Body_Gyroscope_Jerk-mean()-X"                  
-* "Time_Body_Gyroscope_Jerk-mean()-Y"                  
-* "Time_Body_Gyroscope_Jerk-mean()-Z"                  
-* "Time_Body_Gyroscope_Jerk-std()-X"                   
-* "Time_Body_Gyroscope_Jerk-std()-Y"                   
-* "Time_Body_Gyroscope_Jerk-std()-Z"                   
-* "Time_Body_Acceration_Magnitude-mean()"              
-* "Time_Body_Acceration_Magnitude-std()"               
-* "Time_Gravity_Acceration_Magnitude-mean()"           
-* "Time_Gravity_Acceration_Magnitude-std()"            
-* "Time_Body_Acceration_Jerk_Magnitude-mean()"         
-* "Time_Body_Acceration_Jerk_Magnitude-std()"          
-* "Time_Body_Gyroscope_Magnitude-mean()"               
-* "Time_Body_Gyroscope_Magnitude-std()"                
-* "Time_Body_Gyroscope_Jerk_Magnitude-mean()"          
-* "Time_Body_Gyroscope_Jerk_Magnitude-std()"           
-* "Frequency_Body_Acceration-mean()-X"                 
-* "Frequency_Body_Acceration-mean()-Y"                 
-* "Frequency_Body_Acceration-mean()-Z"                 
-* "Frequency_Body_Acceration-std()-X"                  
-* "Frequency_Body_Acceration-std()-Y"                  
-* "Frequency_Body_Acceration-std()-Z"                  
-* "Frequency_Body_Acceration-meanFreq()-X"             
-* "Frequency_Body_Acceration-meanFreq()-Y"             
-* "Frequency_Body_Acceration-meanFreq()-Z"             
-* "Frequency_Body_Acceration_Jerk-mean()-X"            
-* "Frequency_Body_Acceration_Jerk-mean()-Y"            
-* "Frequency_Body_Acceration_Jerk-mean()-Z"            
-* "Frequency_Body_Acceration_Jerk-std()-X"             
-* "Frequency_Body_Acceration_Jerk-std()-Y"             
-* "Frequency_Body_Acceration_Jerk-std()-Z"             
-* "Frequency_Body_Acceration_Jerk-meanFreq()-X"        
-* "Frequency_Body_Acceration_Jerk-meanFreq()-Y"        
-* "Frequency_Body_Acceration_Jerk-meanFreq()-Z"        
-* "Frequency_Body_Gyroscope-mean()-X"                  
-* "Frequency_Body_Gyroscope-mean()-Y"                  
-* "Frequency_Body_Gyroscope-mean()-Z"                  
-* "Frequency_Body_Gyroscope-std()-X"                   
-* "Frequency_Body_Gyroscope-std()-Y"                   
-* "Frequency_Body_Gyroscope-std()-Z"                   
-* "Frequency_Body_Gyroscope-meanFreq()-X"              
-* "Frequency_Body_Gyroscope-meanFreq()-Y"              
-* "Frequency_Body_Gyroscope-meanFreq()-Z"              
-* "Frequency_Body_Acceration_Magnitude-mean()"         
-* "Frequency_Body_Acceration_Magnitude-std()"          
-* "Frequency_Body_Acceration_Magnitude-meanFreq()"     
-* "Frequency_Body_Acceration_Jerk_Magnitude-mean()"    
-* "Frequency_Body_Acceration_Jerk_Magnitude-std()"     
-* "Frequency_Body_Acceration_Jerk_Magnitude-meanFreq()"
-* "Frequency_Body_Gyroscope_Magnitude-mean()"          
-* "Frequency_Body_Gyroscope_Magnitude-std()"           
-* "Frequency_Body_Gyroscope_Magnitude-meanFreq()"      
-* "Frequency_Body_Gyroscope_Jerk_Magnitude-mean()"     
-* "Frequency_Body_Gyroscope_Jerk_Magnitude-std()"      
-* "Frequency_Body_Gyroscope_Jerk_Magnitude-meanFreq()"
+* "Subject": Int from 1 to 30                                        
+* "Activity": Factor 6 levels (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)                     
+* "Time_Body_Acceration-mean()-X": Num from 0.2216 to 0.3015
+* "Time_Body_Acceration-mean()-Y": Num from -0.040514 to -0.001308
+* "Time_Body_Acceration-mean()-Z": Num from -0.15251 to -0.07538 
+* "Time_Body_Acceration-std()-X": Num from -0.9961 to 0.6269
+* "Time_Body_Acceration-std()-Y": Num from -0.99024 to 0.61694
+* "Time_Body_Acceration-std()-Z": Num from -0.9877 to 0.6090
+* "Time_Gravity_Acceration-mean()-X": Num from -0.6800 to 0.9745
+* "Time_Gravity_Acceration-mean()-Y": Num from -0.47989 to 0.95659
+* "Time_Gravity_Acceration-mean()-Z": Num from -0.49509 to 0.95787
+* "Time_Gravity_Acceration-std()-X": Num from -0.9968 to -0.8296
+* "Time_Gravity_Acceration-std()-Y": Num from -0.9942 to -0.6436
+* "Time_Gravity_Acceration-std()-Z": Num from -0.9910 to -0.6102
+* "Time_Body_Acceration_Jerk-mean()-X": Num from 0.04269 to 0.13019
+* "Time_Body_Acceration_Jerk-mean()-Y": Num from -0.0386872 to 0.0568186
+* "Time_Body_Acceration_Jerk-mean()-Z": Num from -0.067458 to 0.038053
+* "Time_Body_Acceration_Jerk-std()-X": Num from -0.9946 to 0.5443
+* "Time_Body_Acceration_Jerk-std()-Y": Num from -0.9895 to 0.3553
+* "Time_Body_Acceration_Jerk-std()-Z": Num from -0.99329 to 0.03102
+* "Time_Body_Gyroscope-mean()-X": Num from -0.20578 to 0.19270
+* "Time_Body_Gyroscope-mean()-Y": Num from -0.20421 to 0.02747
+* "Time_Body_Gyroscope-mean()-Z": Num from -0.07245 to 0.17910
+* "Time_Body_Gyroscope-std()-X": Num from -0.9943 to 0.2677
+* "Time_Body_Gyroscope-std()-Y": Num from -0.9942 to 0.4765
+* "Time_Body_Gyroscope-std()-Z": Num from -0.9855 to 0.5649
+* "Time_Body_Gyroscope_Jerk-mean()-X": Num from -0.15721 to -0.02209
+* "Time_Body_Gyroscope_Jerk-mean()-Y": Num from -0.07681 to -0.01320
+* "Time_Body_Gyroscope_Jerk-mean()-Z": Num from -0.092500 to -0.006941
+* "Time_Body_Gyroscope_Jerk-std()-X": Num from -0.9965 to 0.1791
+* "Time_Body_Gyroscope_Jerk-std()-Y": Num from -0.9971 to 0.2959
+* "Time_Body_Gyroscope_Jerk-std()-Z": Num from -0.9954 to 0.1932
+* "Time_Body_Acceration_Magnitude-mean()": Num from -0.9865 to 0.6446
+* "Time_Body_Acceration_Magnitude-std()": Num from -0.9865 to 0.4284
+* "Time_Gravity_Acceration_Magnitude-mean()": Num from -0.9865 to 0.6446
+* "Time_Gravity_Acceration_Magnitude-std()": Num from -0.9865 to 0.4284
+* "Time_Body_Acceration_Jerk_Magnitude-mean()": Num from -0.9928 to 0.4345
+* "Time_Body_Acceration_Jerk_Magnitude-std()": Num from -0.9946 to 0.4506
+* "Time_Body_Gyroscope_Magnitude-mean()": Num from -0.9807 to 0.4180
+* "Time_Body_Gyroscope_Magnitude-std()": Num from -0.9814 to 0.3000
+* "Time_Body_Gyroscope_Jerk_Magnitude-mean()": Num from -0.99732 to 0.08758
+* "Time_Body_Gyroscope_Jerk_Magnitude-std()": Num from -0.9977 to 0.2502
+* "Frequency_Body_Acceration-mean()-X": Num from -0.9952 to 0.5370
+* "Frequency_Body_Acceration-mean()-Y": Num from -0.98903 to 0.52419
+* "Frequency_Body_Acceration-mean()-Z": Num from -0.9895 to 0.2807
+* "Frequency_Body_Acceration-std()-X": Num from -0.9966 to 0.6585
+* "Frequency_Body_Acceration-std()-Y": Num from -0.99068 to 0.56019
+* "Frequency_Body_Acceration-std()-Z": Num from -0.9872 to 0.6871
+* "Frequency_Body_Acceration-meanFreq()-X": Num from -0.63591 to 0.15912
+* "Frequency_Body_Acceration-meanFreq()-Y": Num from -0.379518 to 0.466528
+* "Frequency_Body_Acceration-meanFreq()-Z": Num from -0.52011 to 0.40253
+* "Frequency_Body_Acceration_Jerk-mean()-X": Num from -0.9946 to 0.4743
+* "Frequency_Body_Acceration_Jerk-mean()-Y": Num from -0.9894 to 0.2767
+* "Frequency_Body_Acceration_Jerk-mean()-Z": Num from -0.9920 to 0.1578
+* "Frequency_Body_Acceration_Jerk-std()-X": Num from -0.9951 to 0.4768
+* "Frequency_Body_Acceration_Jerk-std()-Y": Num from -0.9905 to 0.3498
+* "Frequency_Body_Acceration_Jerk-std()-Z": Num from -0.993108 to -0.006236
+* "Frequency_Body_Acceration_Jerk-meanFreq()-X": Num from -0.57604 to 0.33145
+* "Frequency_Body_Acceration_Jerk-meanFreq()-Y": Num from -0.60197 to 0.19568
+* "Frequency_Body_Acceration_Jerk-meanFreq()-Z": Num from -0.62756 to 0.23011
+* "Frequency_Body_Gyroscope-mean()-X": Num from -0.9931 to 0.4750
+* "Frequency_Body_Gyroscope-mean()-Y": Num from -0.9940 to 0.3288
+* "Frequency_Body_Gyroscope-mean()-Z": Num from -0.9860 to 0.4924
+* "Frequency_Body_Gyroscope-std()-X": Num from -0.9947 to 0.1966
+* "Frequency_Body_Gyroscope-std()-Y": Num from -0.9944 to 0.6462
+* "Frequency_Body_Gyroscope-std()-Z": Num from -0.9867 to 0.5225
+* "Frequency_Body_Gyroscope-meanFreq()-X": Num from -0.395770 to 0.249209
+* "Frequency_Body_Gyroscope-meanFreq()-Y": Num from -0.66681 to 0.27314
+* "Frequency_Body_Gyroscope-meanFreq()-Z": Num from -0.50749 to 0.37707
+* "Frequency_Body_Acceration_Magnitude-mean()": Num from -0.9868 to 0.5866
+* "Frequency_Body_Acceration_Magnitude-std()": Num from -0.9876 to 0.1787
+* "Frequency_Body_Acceration_Magnitude-meanFreq()": Num from -0.31234 to 0.43585
+* "Frequency_Body_Acceration_Jerk_Magnitude-mean()": Num from -0.9940 to 0.5384
+* "Frequency_Body_Acceration_Jerk_Magnitude-std()": Num from -0.9944 to 0.3163
+* "Frequency_Body_Acceration_Jerk_Magnitude-meanFreq()": Num from -0.12521 to 0.48809
+* "Frequency_Body_Gyroscope_Magnitude-mean()": Num from -0.9865 to 0.2040
+* "Frequency_Body_Gyroscope_Magnitude-std()": Num from -0.9815 to 0.2367
+* "Frequency_Body_Gyroscope_Magnitude-meanFreq()": Num from -0.45664 to 0.40952
+* "Frequency_Body_Gyroscope_Jerk_Magnitude-mean()": Num from -0.9976 to 0.1466
+* "Frequency_Body_Gyroscope_Jerk_Magnitude-std()": Num from -0.9976 to 0.2878
+* "Frequency_Body_Gyroscope_Jerk_Magnitude-meanFreq()": Num from -0.18292 to 0.42630
+
